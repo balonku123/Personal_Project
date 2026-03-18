@@ -321,7 +321,6 @@ const PrematurBelt = () => {
                   {/* GREEN left (0% safe) → YELLOW mid → RED right (100% danger) */}
                   <linearGradient id="gaugeArcFixed" x1="0%" y1="0%" x2="100%" y2="0%">
                     <stop offset="0%"   stopColor="#22c55e" />
-                    <stop offset="50%"  stopColor="#f59e0b" />
                     <stop offset="100%" stopColor="#ef4444" />
                   </linearGradient>
                 </defs>
